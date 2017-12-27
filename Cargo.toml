@@ -12,7 +12,7 @@ description = "Extremely Simple Capture API (ESCAPI) - simple webcam API for win
 license-file = "UNLICENSE"
 
 [dependencies]
-kernel32-sys = "0.2.2"
+winapi = { version = "0.3.2", features = ["errhandlingapi"] }
 libc = "0.2.10"
 
 [dev-dependencies]

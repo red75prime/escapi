@@ -1,7 +1,7 @@
 extern crate libc;
-extern crate kernel32;
+extern crate winapi;
 
-use kernel32::GetLastError;
+use winapi::um::errhandlingapi::GetLastError;
 
 #[repr(C)]
 struct SimpleCapParams {
